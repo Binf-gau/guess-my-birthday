@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Guess My Birthday</title>
+  </head>
+  <body>
+    <section class="section-game">
+      <div class="container">
+        <div class="game">
+          <div class="game-text-box">
+            <div class="title-game">
+              <h1>Guess My Birthday</h1>
+            </div>
+
+            <div class="game-play-box">
+              <div class="birthday">?</div>
+              <div class="game-play-day">
+                <p class="label">Day</p>
+                <input type="number" class="guess-day" />
+                <p class="message day">...</p>
+              </div>
+              <div class="game-play-month">
+                <p class="label">Month</p>
+                <input type="number" class="guess-month" />
+                <p class="message month">...</p>
+              </div>
+              <button class="btn btn--check">Check</button>
+            </div>
+          </div>
+          <div
+            class="game-img-box"
+            role="img"
+            aria-label="Văn Bình đang đọc sách"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js" />
+  </body>
+</html>

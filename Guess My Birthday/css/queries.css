@@ -1,0 +1,33 @@
+/**************************/
+/* BELOW 992px (tablet) */
+/**************************/
+
+@media (max-width: 62em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/**************************/
+/* BELOW 896px (tablet) */
+/**************************/
+
+@media (max-width: 56em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 53em) {
+  .game {
+    grid-template-columns: 1fr;
+  }
+  .game-text-box {
+    box-shadow: inset 0 0 0 3px #888;
+  }
+  .game-img-box {
+    height: 60vh;
+    grid-row: 1;
+    box-shadow: inset 0 0 0 3px #888;
+  }
+}
